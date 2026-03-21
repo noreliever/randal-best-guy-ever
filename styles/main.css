@@ -58,6 +58,15 @@ a{
 /* all elements have headings and margins, and to get rid of them on everything, 
 select everything with * */
 
+.index{
+    background-color; color: white;
+    text-align: center;
+
+    border: 10px groove black;
+    background-image: url(../images/6b6bc61622b308cf501902d473b5ca04.gif);
+    background-size: auto;
+}
+
 
 .header{
     background-color: goldenrod;
