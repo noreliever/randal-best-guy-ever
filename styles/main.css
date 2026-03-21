@@ -1,0 +1,117 @@
+/* different to html.... selectors */
+body{
+    background-color: blueviolet;
+font-family: "comic sans ms",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* single or double quotes used for those of multiple words */
+}
+/* must add css file to html file */
+
+/* in order to change color of the text: paragrpahs */
+p{
+color: black;
+/* all this fam is fallback bruh */
+}
+
+a{
+    color: aqua;
+}   
+
+.home-button{
+    background-color: aqua;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.Randal{
+    /* uniform resource locator */
+    background-image: url("../images/remmy.png");
+    background-size: 25%;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.Randal:hover{
+    border: 10px outset white;
+
+}
+
+.home-button:hover{
+    border: 10px inset red;
+}
+
+.interests img{
+    width: 25%;
+    height: 3cm;
+}
+
+
+
+*{
+    margin: 0;
+    font: bold;
+    font-size: 25px;
+}
+
+/* shift delete to delete whole line, padding deletes lists */
+/* all elements have headings and margins, and to get rid of them on everything, 
+select everything with * */
+
+
+.header{
+    background-color: goldenrod;
+    text-align: center;
+    padding: 1.5cm;
+
+
+    /* you can do height in percentages */
+    border: 10px outset goldenrod;
+    background-image: url("../images/remmy.png"); 
+    background-size: 25%;
+    /* do ../ to go back */
+}
+
+.header h1{ 
+    background-color: aqua;
+    display: inline;
+    padding: 10px;
+    border-radius: 150px;
+    border: 10px dotted violet;
+}
+
+.hidden-link{
+    color: goldenrod;
+    text-decoration: none;
+    cursor: default;
+} 
+/* this is the hidden link  */
+
+
+.blue-text, b, strong{
+    color: white;
+    /* you can use pixel size (px), in, cm, millimeters */
+   font-size: 67px;
+    font-family: "ms gothic", 'Courier New', Courier, monospace;
+}
+/* to change text inside body just change font inside body */
+/* to move stuff do like alt and arrow keys */
+
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 15% 1fr;
+}
+/* fr = fraction, guesses the numbers instead of u doing it lolz */
+
+.left {
+    background-color: greenyellow;
+}
+
+.middle{
+    background-color: burlywood;
+}
+
+.right{
+    background-color: purple;
+}
+
