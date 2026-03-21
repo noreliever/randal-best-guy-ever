@@ -72,7 +72,7 @@ select everything with * */
     background-color: goldenrod;
     text-align: center;
     padding: 1.5cm;
-
+    height: 10px
 
     /* you can do height in percentages */
     border: 10px outset goldenrod;
