@@ -124,3 +124,10 @@ select everything with * */
     background-color: purple;
 }
 
+.fat{
+    color: black;
+    height: 300px;
+    width: 300px;
+   background-size: 75%;
+    background-image: url(../images/6b6bc61622b308cf501902d473b5ca04.gif);
+}
