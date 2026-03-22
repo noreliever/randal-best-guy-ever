@@ -11,25 +11,32 @@ p{
 color: black;
 /* all this fam is fallback bruh */
 }
+*{
+    margin: 0;
+    font: bold;
+    font-size: 25px;
+}
+
+/* shift delete to delete whole line, padding deletes lists */
+/* all elements have headings and margins, and to get rid of them on everything, 
+select everything with * */
 
 a{
     color: aqua;
 }   
 
 .Randalls{
-    height: 200px;
-}
-
-.home-button{
-    background-color: aqua;
-    padding: 10px;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    flex-basis: 50vh;
 }
 
 .remmypilled{
- height: 50%;
+ height: 60vh;
+ display: block;
+margin-left: auto;
+margin-right: auto;
 }
+
 
 .Randal{
     /* uniform resource locator */
@@ -42,16 +49,6 @@ a{
 
 .Randal:hover{
     border: 10px outset white;
-
-}
-
-.home-button:hover{
-    border: 10px inset red;
-}
-
-.interests img{
-    width: 25%;
-    height: 15%;
 }
 
 .middle{
@@ -61,7 +58,7 @@ a{
 .interests{
     color: black;
     text-align: center;
-    background-color: rgb(66, 187, 147);
+    background-color: cyan;
 }
 
 .nyehehehe{
@@ -72,44 +69,86 @@ a{
     border: 15px red inset;
 }
 
-
-*{
-    margin: 0;
-    font: bold;
-    font-size: 25px;
-}
-
-/* shift delete to delete whole line, padding deletes lists */
-/* all elements have headings and margins, and to get rid of them on everything, 
-select everything with * */
-
 .index{
-    background-color; color: white;
+    margin-bottom: 3rem auto;
+    background-color: color white;
     text-align: center;
     color: chocolate;
-
+    display: block;
     border: 10px groove black;
     background-image: url(../images/6b6bc61622b308cf501902d473b5ca04.gif);
     background-size: auto;
 }
+.bigboy{
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid goldenrod;
+    height: 90vh;
+    align-content:flex-start;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+.left {
+    background-color: blueviolet;
+    background-size: 10%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.middle{
+    border-left: 10px solid goldenrod;
+    border-right: 10px solid goldenrod;
+    padding: 10px;
+    background-color: burlywood;
+    background-size: 1fr;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.right{
+    background-color: purple;
+    background-size: 10%;
+    display:flex;
+    flex-direction: column;
+}
+
 
 h6{
     color: rgb(110, 1, 173);
 }
 
-.header{
-    background-color: goldenrod;
-    text-align: center;
-    padding: 1.5cm;
-    height: 10px
 
-    /* you can do height in percentages */
-    border: 10px outset goldenrod;
-    background-image: url("../images/remmy.png"); 
-    background-size: 25%;
-    /* do ../ to go back */
+/* justify content = main axis (x-axis) */
+
+.container{
+    display: flex;
+   flex-direction: column-reverse;
+   justify-content: left;
+
 }
-
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 3em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: hsl(286, 74%, 20%)
+}
+#box2{
+    background-color: hsl(41, 100%, 37%);
+}
+#box3{
+    background-color: hsl(130, 52%, 38%);
+}
+#box4{
+    background-color: hsl(0, 100%, 40%);
+}
 .hide{
     color: burlywood;
     font-size: 25px;
@@ -117,12 +156,26 @@ h6{
     cursor: e-resize;
 }
 
-.header h1{ 
+.header{
+    background-color: goldenrod;
+    text-align: center;
+    align-items: center;
+    padding: 1.5cm;
+    height: 60px;
+    border: 10px outset goldenrod;
+    background-image: url("../images/remmy.png"); 
+    background-size: 100px 200px;
+    /* do ../ to go back */
+}
+
+.header button{ 
     background-color: aqua;
     display: inline;
     padding: 10px;
     border-radius: 150px;
     border: 10px dotted violet;
+    font-family: "comic sans ms", 'Times New Roman', Times, serif;
+   
 }
 
 .hidden-link{
@@ -142,23 +195,7 @@ h6{
 /* to change text inside body just change font inside body */
 /* to move stuff do like alt and arrow keys */
 
-.layout{
-    display: grid;
-    grid-template-columns: 15% 70% 15%;
-}
-/* fr = fraction, guesses the numbers instead of u doing it lolz */
-
-.left {
-    background-color: blueviolet;
-}
-
-.middle{
-    background-color: burlywood;
-}
-
-.right{
-    background-color: purple;
-}
+lolz */
 
 .fat{
     color: black;
@@ -168,7 +205,18 @@ h6{
     background-image: url(../images/6b6bc61622b308cf501902d473b5ca04.gif);
 }
 
+/* idk why i named it that lol */
 .schrodinger{
     color: blueviolet;
     cursor: default;
+}
+
+.home-button{
+    background-color: aqua;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.home-button:hover{
+    border: 10px inset red;
 }
