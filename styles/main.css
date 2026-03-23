@@ -1,75 +1,78 @@
-/* different to html.... selectors */
-body{
-    background-color: blueviolet;
-font-family: "comic sans ms",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-/* single or double quotes used for those of multiple words */
-}
-/* must add css file to html file */
 
-/* in order to change color of the text: paragrpahs */
-p{
-color: black;
-/* all this fam is fallback bruh */
-}
-*{
+
+* {
     margin: 0;
     font: bold;
     font-size: 25px;
 }
 
-/* shift delete to delete whole line, padding deletes lists */
-/* all elements have headings and margins, and to get rid of them on everything, 
-select everything with * */
+p {
+    color: black;
+}
 
-a{
+
+a {
     color: aqua;
-}   
+}
 
-.Randalls{
+body {
+    font-family: "comic sans ms", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+
+}
+
+
+.Randalls {
     display: flex;
     flex-basis: 50vh;
 }
 
-.remmypilled{
- height: 60vh;
- display: block;
-margin-left: auto;
-margin-right: auto;
+.remmypilled {
+    height: 60vh;
+    display: block;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.remedy{
+    color: blue;
+}
 
-.Randal{
-    /* uniform resource locator */
-    background-image: url("../images/remmy.png");
+.Randal {
+    background-image: url("../images/r3mmy.png");
     background-size: 25%;
     padding: 10px;
     display: inline-block;
     text-align: center;
 }
 
-.Randal:hover{
+.Randal:hover {
     border: 10px outset white;
 }
 
-.middle{
-    text-align: center;
+.horizontalline{
+    margin: 25px;
 }
 
-.interests{
+.interests {
     color: black;
     text-align: center;
     background-color: cyan;
 }
 
-.nyehehehe{
-    margin: 25px;
-}
-
-.interests:hover{
+.interests:hover {
     border: 15px red inset;
 }
 
-.index{
+.index {
+    position: absolute;
+    align-self: start;
     margin-bottom: 3rem auto;
     background-color: color white;
     text-align: center;
@@ -79,144 +82,170 @@ margin-right: auto;
     background-image: url(../images/6b6bc61622b308cf501902d473b5ca04.gif);
     background-size: auto;
 }
-.bigboy{
+
+.bigboy {
     display: flex;
     flex-wrap: wrap;
     border: 10px solid goldenrod;
-    height: 90vh;
-    align-content:flex-start;
+    height: 87vh;
+    align-content: flex-start;
 }
 
-.layout{
+.layout {
     display: grid;
     grid-template-columns: 15% 70% 15%;
 }
 
 .left {
-    background-color: blueviolet;
+    background-color:blueviolet;
     background-size: 10%;
     display: grid;
     grid-template-columns: auto;
 }
 
-.middle{
+.middle {
+    text-align: center ;
     border-left: 10px solid goldenrod;
     border-right: 10px solid goldenrod;
     padding: 10px;
+
     background-color: burlywood;
     background-size: 1fr;
+
     display: grid;
     grid-template-columns: auto;
 }
 
-.right{
+.right {
     background-color: purple;
     background-size: 10%;
-    display:flex;
-    flex-direction: column;
 }
 
+body h2{
+    font-family: "comic sans ms", 'Courier New', Courier, monospace;
+    text-align: center;;
+}
 
-h6{
+h6 {
     color: rgb(110, 1, 173);
 }
 
 
 /* justify content = main axis (x-axis) */
 
-.container{
+.container {
     display: flex;
-   flex-direction: column-reverse;
-   justify-content: left;
+    flex-direction: column-reverse;
+    justify-content: left;
 
 }
-.box{
+
+.box {
     width: 150px;
     height: 150px;
     font-size: 3em;
     text-align: center;
     border-radius: 15px;
 }
-#box1{
-    background-color: hsl(286, 74%, 20%)
+
+#box1 {
+    background-color: hsl(286, 74%, 20%);
+    background-image: url(../images/k3nny.jpg);
+    background-size: 200px 200px;
+    background-position: -1.6cm;
 }
-#box2{
-    background-color: hsl(41, 100%, 37%);
+
+#box2 {
+    background-color: aliceblue;
+    background-image:url(../images/k3iko.jpg);
+    background-size: 150px 150px;
 }
-#box3{
+
+#box3 {
     background-color: hsl(130, 52%, 38%);
+    background-image: url(../images/Ang3la.jpg);
+    background-size: 150px 150px;
 }
-#box4{
+
+#box4 {
     background-color: hsl(0, 100%, 40%);
+    background-image: url(../images/Hunt3r.jpg);
+    background-size: 150px 150px;
 }
-.hide{
+
+.hide {
     color: burlywood;
     font-size: 25px;
     text-decoration: none;
     cursor: e-resize;
 }
 
-.header{
+.header {
+    position: absolute;
+    align-self: start;
     background-color: goldenrod;
     text-align: center;
     align-items: center;
     padding: 1.5cm;
     height: 60px;
+ 
     border: 10px outset goldenrod;
-    background-image: url("../images/remmy.png"); 
+    background-image: url("../images/r3mmy.png");
     background-size: 100px 200px;
     /* do ../ to go back */
 }
 
-.header button{ 
+.header button {
     background-color: aqua;
     display: inline;
     padding: 10px;
     border-radius: 150px;
     border: 10px dotted violet;
     font-family: "comic sans ms", 'Times New Roman', Times, serif;
-   
 }
 
-.hidden-link{
+
+
+.interrets{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25vh;
+}
+
+ul, ol{}
+
+.hidden-link {
     color: goldenrod;
     text-decoration: none;
     cursor: default;
-} 
-/* this is the hidden link  */
+}
 
-/* i fell asleep while coding whoops */
-.blue-text, b, strong{                                         
+.blue-text,b,strong {
     color: white;
-    /* you can use pixel size (px), in, cm, millimeters */
-   font-size: 67px;
+    font-size: 67px;
     font-family: "ms gothic", 'Courier New', Courier, monospace;
 }
-/* to change text inside body just change font inside body */
-/* to move stuff do like alt and arrow keys */
 
-lolz */
-
-.fat{
+.fat {
     color: black;
     height: 300px;
     width: 300px;
-   background-size: 75%;
+    background-size: 75%;
     background-image: url(../images/6b6bc61622b308cf501902d473b5ca04.gif);
 }
 
-/* idk why i named it that lol */
-.schrodinger{
+.schrodinger {
     color: blueviolet;
     cursor: default;
 }
 
-.home-button{
+.home-button {
     background-color: aqua;
     padding: 10px;
     display: inline-block;
     text-align: center;
 }
-.home-button:hover{
+
+.home-button:hover {
     border: 10px inset red;
 }

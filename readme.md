@@ -5,10 +5,13 @@
 <!--  do not writ ehtml except hr -->
 <hr>
 this is so fun 
+<h2> lalalala </h2>
 
 ---
-hi guys
-
+hi guys look at this cool webstie that i supposedly made
+[Randal best guy ever website](https://noreliever.github.io/randal-best-guy-ever/)
+<hr>
+<h1> and then here is cooler website <h1>
 [Maximilian COol website](https://maximilian.co.nz)
 
 ```html 
@@ -18,5 +21,3 @@ hi guys
 
 <b>hello</b>
 ````
-
-**This is my first website ever don't dog on me too much**
