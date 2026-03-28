@@ -70,6 +70,18 @@ body {
     border: 15px red inset;
 }
 
+.hidden-link {
+    color: goldenrod;
+    text-decoration: none;
+    cursor: default;
+}
+
+.blue-text,b,strong {
+    color: white;
+    font-size: 67px;
+    font-family: "ms gothic", 'Courier New', Courier, monospace;
+}
+
 .index {
     position: absolute;
     align-self: start;
@@ -130,7 +142,6 @@ h6 {
     color: rgb(110, 1, 173);
 }
 
-
 /* justify content = main axis (x-axis) */
 
 .container {
@@ -180,22 +191,24 @@ h6 {
     cursor: e-resize;
 }
 
-.header {
-    position: absolute;
-    align-self: start;
+/* INTERESTS */
+
+.header{
+
     background-color: goldenrod;
     text-align: center;
     align-items: center;
+    float: inline-start;
     padding: 1.5cm;
+    width: 100;
     height: 60px;
- 
     border: 10px outset goldenrod;
-    background-image: url("../images/r3mmy.png");
+    background-image: url("../images/r3mmy.png"); 
     background-size: 100px 200px;
     /* do ../ to go back */
 }
 
-.header button {
+.header button{ 
     background-color: aqua;
     display: inline;
     padding: 10px;
@@ -204,33 +217,28 @@ h6 {
     font-family: "comic sans ms", 'Times New Roman', Times, serif;
 }
 
-
-
 .interrets{
     display: flex;
     flex-direction: row;
     margin-top: 25vh;
 }
 
-ul, ol{}
-
-.hidden-link {
-    color: goldenrod;
-    text-decoration: none;
-    cursor: default;
+.lock {
+    border: 10px dotted white;
 }
 
-.blue-text,b,strong {
-    color: white;
-    font-size: 67px;
-    font-family: "ms gothic", 'Courier New', Courier, monospace;
+.jin{
+    display: grid;
+    
 }
+
 
 .fat {
+    float: initial;
     color: black;
-    height: 300px;
+    height: 30em;
     width: 300px;
-    background-size: 75%;
+    background-size: 5%;
     background-image: url(../images/6b6bc61622b308cf501902d473b5ca04.gif);
 }
 
@@ -244,6 +252,7 @@ ul, ol{}
     padding: 10px;
     display: inline-block;
     text-align: center;
+    align-self: flex-end;
 }
 
 .home-button:hover {
