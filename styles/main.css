@@ -268,7 +268,7 @@ h6 {
 .home-button{
     background-color: aqua;
     padding: 10px;
-    display: inline-block;
+    display: block;
     text-align: center;
 }
 .home-button:hover{
