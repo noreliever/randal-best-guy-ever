@@ -163,6 +163,7 @@ h6 {
 }
 
 #box1 {
+    text-align: center;
     background-color: hsl(286, 74%, 20%);
     background-image: url(../images/k3nny.jpg);
     background-size: 200px 200px;
@@ -185,6 +186,11 @@ h6 {
     background-color: hsl(0, 100%, 40%);
     background-image: url(../images/Hunt3r.jpg);
     background-size: 150px 150px;
+}
+
+.itshuntertime{
+    text-decoration: none;
+    cursor: e-resize;
 }
 
 .hide {
