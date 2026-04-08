@@ -7,8 +7,9 @@ this is so fun
 <h2> lalalala </h2>
 
 ---
-hi guys look at this cool webstie that i supposedly made
-[Randal best guy ever website](https://noreliever.github.io/randal-best-guy-ever/)
+<h1>
+i guys look at this cool webstie that i supposedly made
+[Randal best guy ever website](https://noreliever.github.io/randal-best-guy-ever/) <h1>
 <hr>
 <h1> and then here is cooler website <h1>
 [Maximilian website](https://maximilian.co.nz)
